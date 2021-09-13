@@ -251,8 +251,13 @@ button {
 }
 
 .bg-color--gray {
-  background-color: #ffffff;
+  background-color: #000;
 }
+
+.bg-color--white{
+  background-color: #fff;
+}
+
 
 /*********************
 * title
