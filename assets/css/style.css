@@ -16,8 +16,9 @@ html {
           box-sizing: border-box;
 }
 
-.head {
+head {
   background-color: #000;
+  font-size: 40px;
 }
 
 body {
