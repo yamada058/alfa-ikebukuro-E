@@ -416,6 +416,7 @@ button {
 ********************/
 .story__note {
   margin: 0;
+  color: #fff;
 }
 
 .story__note__outer {
