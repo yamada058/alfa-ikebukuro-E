@@ -138,6 +138,7 @@ button {
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   gap: 10px;
+  color: #000;
 }
 
 .row + .row {
