@@ -16,7 +16,7 @@ html {
           box-sizing: border-box;
 }
 
-head {
+.head {
   background-color: #000;
 }
 
@@ -96,7 +96,6 @@ button {
 .section {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #000;
 }
 
 .section--clear {
@@ -503,6 +502,7 @@ button {
 ********************/
 .text-center {
   text-align: center;
+  color: #fff;
 }
 
 .text-left {
