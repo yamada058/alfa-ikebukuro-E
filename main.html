@@ -23,7 +23,7 @@
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="header.png" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="assets/images/main-image.png" alt="封鎖された家庭科室からの脱出"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -62,6 +62,10 @@ Youtube貼り付けここまで -->
         <!-- STAGE1解答入力セクション　ここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
+            <div class="row">
+              <div class="column">
+                <div class="card">
+
             <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>問い1のキーワードを入力</h2>
             <!------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
@@ -77,6 +81,10 @@ Youtube貼り付けここまで -->
             <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>問い２のキーワードを入力</h2>
             <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
             <p><br></p>
+                  
+              </div>
+            </div>
+          </div>
             
             <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>問い3のキーワードを入力</h2>
             <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
