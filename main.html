@@ -76,6 +76,7 @@ Youtube貼り付けここまで -->
               1番麺の引数 $event は正解、不正解の判定を受け取る変数です。
               []、()の間違い、''の抜けがあると動きません。
             ------------------------------------------------------------------------------------------------------------>
+                   <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
             <p><br></p>
                               </div>
           </div>
@@ -83,6 +84,7 @@ Youtube貼り付けここまで -->
               <div class="column">
                 <div class="card">
             <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>問い２のキーワードを入力</h2>
+                   <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
             <p><br></p>
                   
               </div>
@@ -94,6 +96,7 @@ Youtube貼り付けここまで -->
           <div class="column">
             <div class="card">
             <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>問い3のキーワードを入力</h2>
+               <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
             <p><br></p>
             </div>
           </div>
@@ -102,11 +105,12 @@ Youtube貼り付けここまで -->
             <div class="card">
 
             <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>問い4のキーワードを入力</h2>
+               <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
             <p><br></p>
                             </div>
             </div>
           </div>
-                        <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
+                       
 
             
 
