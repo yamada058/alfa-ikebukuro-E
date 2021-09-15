@@ -19,9 +19,9 @@ const app = Vue.createApp({
       correctAnswer: {
         stage1: {
           q1: '184',
-         　　// q2: 'えええ',
-          // q3: 'おおお'
-          // q4: 'えええ',
+         　　// q2: '28',
+          // q3: 'ぎいん'
+          // q4: '男',
 
           
           
