@@ -43,11 +43,11 @@ const app = Vue.createApp({
       */
       answer: {
         stage1: [
-          false,1-1
-          false,1-2
-          false,1-3
-          false,1-4
-          false,
+          false,//1-1
+          //false,1-2
+          //false,1-3
+          //false,1-4
+          //false,
         ],
         stage2: [
           false, // 2-1
